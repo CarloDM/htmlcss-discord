@@ -49,7 +49,7 @@ a{
   color: white
 }
 
-.bottone.grande.blu a{
+.blu a{
   background-color: rgb(142, 161, 225);
   color: white
 }
@@ -153,7 +153,7 @@ background-color: rgb(44, 93, 226);
 .layer1 ,
 .layer3{
   height: 500px;
-  background-color: rgb(230, 230, 211);
+
 
 }
 
@@ -186,12 +186,11 @@ flex-wrap: wrap;
 width: 75%;
 height: 79%;
 margin-top: 50px;
-border: solid 1px black;
 }
 
 .layer2{
   height: 500px;
-  background-color: rgb(158, 158, 87);
+  background-color: rgb(219, 219, 219);
 
 }
 
@@ -202,22 +201,20 @@ border: solid 1px black;
   width: 75%;
   height: 79%;
   margin-top: 50px;
-  border: solid 1px black;
+
 }
 
 .image {
   width: calc(100% *0.6);
-  background-color: aqua;
 }
 
 .text {
   width: calc(100% * 0.4);
-  background-color: antiquewhite;
 }
 
   .layer4{
     height: 1010px;
-    background-color: rgb(116, 116, 104);
+    background-color: rgb(218, 218, 218);
   
   }
   
@@ -244,8 +241,6 @@ border: solid 1px black;
 
   .image2{
     width: 105%;
-
-    /* background-color: aliceblue; */
   }
 
   .image2 img{
@@ -265,33 +260,54 @@ border: solid 1px black;
   .cta .bottone{
     margin-top: 40px;
   }
+  
+    .layer5{
+      padding: 40px 0px;
+      background-color: rgb(36, 36, 36);
+    
+    }
 
   .layer5 > div{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 75%;
-    height: 79%;
-    border: solid 1px black;
-  }
-
-  .layer5{
-    height: 550px;
-    background-color: rgb(36, 36, 36);
-  
+    border-bottom: 5px ;
+    border-color: rgb(255, 4, 4);
   }
 
 
-.layer5 .top { 
-  width: calc(100% *0.25);
-  background-color: aqua;
-  border: 1px solid white;
+.layer5 .col-menu-big { 
+  width: calc(100% *0.3);
+  padding: 10px;
+  line-height: 25px;
+
 }
 
 .layer5 .col-menu { 
-  width: calc(100% *0.1875);
-  background-color: rgb(14, 121, 121);
-  border: 1px solid white;
+  width: calc(100% *0.175);
+  padding: 10px;
+  line-height: 25px;
+
+}
+
+.layer5 .col-menu-big h3{
+  color:rgb(142, 161, 225) ;
+}
+
+.layer5 .col-menu-big > div i{
+  color: white;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.col-menu ul li{
+  list-style-type:none;
+  color: white;
+}
+
+.col-menu h4 {
+  color:rgb(142, 161, 225) ;
+  font-weight: 900;
 }
 
 footer {
@@ -300,7 +316,6 @@ footer {
   align-items: center;
   justify-content: end;
   width: 100%;
-  height: 60px;
   background-color: rgb(17, 17, 17);
 }
 
@@ -308,11 +323,9 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 75%;
-  background-color: blanchedalmond;
-
 }
 
 .footer-bar > div{
-  padding: 10px;
-  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
 }
