@@ -18,9 +18,9 @@ h1{
 a{
   text-decoration: none;
 }
+
 .logo img {
   width: 80px;
-
 }
 
 .bottone a{
@@ -29,13 +29,11 @@ a{
   padding: 5px 15px;
   border-radius: 15px;
   font-size: 12px;
-
 }
 
 .bottone.grande{
   display: inline-block;
   margin: 0px 10px;
-  
 }
 
 .bottone.grande a{
@@ -58,16 +56,15 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   width: 100%;
 }
+
+/* header  */
 
 .container header{
 height: 50px;
 background-color: rgb(44, 93, 226);
 }
-
-/* header  */
 
 .header-bar {
   display: flex;
@@ -75,7 +72,6 @@ background-color: rgb(44, 93, 226);
   min-width: 600px;
   height: 30px;
   margin-top: 15px;
-
 }
 
 .header-bar .logo ,
@@ -83,7 +79,6 @@ background-color: rgb(44, 93, 226);
 .header-bar .login {
   display: flex;
   align-items: center;
-
 }
 
 .header-bar .logo{
@@ -95,14 +90,12 @@ background-color: rgb(44, 93, 226);
   justify-content: center;
   text-align: center;
   width: 60%;
-
 }
 
 .header-bar nav ul li{
   list-style: none;
   display: inline-block;
   padding: 0 10px;
-  
 }
 .header-bar nav ul li a{
   color: white;
@@ -134,11 +127,9 @@ background-color: rgb(44, 93, 226);
   min-width: 600px;
   padding: 0px 50px;
   margin-top: 40px;
-
 }
 
 .jumbotron .content h1{
-
   color: rgb(255, 255, 255);
 }
 
@@ -150,20 +141,8 @@ background-color: rgb(44, 93, 226);
 
 /* main  */
 
-.layer1 ,
-.layer3{
-  height: 500px;
-
-
-}
-
-.layer1 img,
-.layer2 img,
-.layer3 img {
-  width: 100%;
-}
-
 .text {
+  width: calc(100% * 0.4);
   padding: 0 20px;
   padding-top: 20px;
 }
@@ -178,137 +157,92 @@ background-color: rgb(44, 93, 226);
   line-height: 20px;
 }
 
-
-.layer1 > div,
-.layer3 > div{
-display: flex;
-flex-wrap: wrap;
-width: 75%;
-height: 79%;
-margin-top: 50px;
+.image {
+  width: calc(100% *0.6);
 }
 
-.layer2{
+.layer {
+  height: 500px;
+}
+
+.layer > div{
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  height: 79%;
+  margin-top: 50px;
+}
+
+.layer .image img,
+.layer-gray .image img{
+  width: 100%;
+}
+
+.layer-gray{
   height: 500px;
   background-color: rgb(219, 219, 219);
-
 }
 
-.layer2 > div{
+.layer-gray > div{
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   width: 75%;
   height: 79%;
   margin-top: 50px;
-
 }
 
-.image {
-  width: calc(100% *0.6);
-}
-
-.text {
-  width: calc(100% * 0.4);
-}
-
-  .layer4{
+.layer-gray-big {
     height: 1010px;
     background-color: rgb(218, 218, 218);
+}
   
-  }
-  
-  .layer4 > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-    width: 75%;
-  }
-
-  .layer4 .text2 h1 {
-    text-align: center;
-    margin: 20px 0;
-
-  }
-
-  .layer4 .text2 p {
-    text-align: center;
-    padding: 0px 15px;
-    margin-bottom: 0px;
-
+.layer-gray-big > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  width: 75%;
 }
 
-  .image2{
-    width: 105%;
-  }
-
-  .image2 img{
-    width: 100%;
-  }
-
-  .cta {
-    text-align: center;
-    margin-top: 15px;
-  }
-
-  .cta h2{
-    font-size: 30px;
-    font-weight: 600;
-  }
-
-  .cta .bottone{
-    margin-top: 40px;
-  }
-  
-    .layer5{
-      padding: 40px 0px;
-      background-color: rgb(36, 36, 36);
-    
-    }
-
-  .layer5 > div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 75%;
-    border-bottom: 5px ;
-    border-color: rgb(255, 4, 4);
-  }
-
-
-.layer5 .col-menu-big { 
-  width: calc(100% *0.3);
-  padding: 10px;
-  line-height: 25px;
-
+.layer-gray-big .text2 h1 {
+  text-align: center;
+  margin: 20px 0;
 }
 
-.layer5 .col-menu { 
-  width: calc(100% *0.175);
-  padding: 10px;
-  line-height: 25px;
-
+.layer-gray-big .text2 p {
+  text-align: center;
+  padding: 0px 15px;
+  margin-bottom: 0px;
 }
 
-.layer5 .col-menu-big h3{
-  color:rgb(142, 161, 225) ;
+.layer-gray-big .image2{
+  width: 105%;
 }
 
-.layer5 .col-menu-big > div i{
-  color: white;
-  padding-top: 10px;
-  padding-right: 10px;
-}
-.col-menu ul li{
-  list-style-type:none;
-  color: white;
+.layer-gray-big .image2 img{
+  width: 100%;
 }
 
-.col-menu h4 {
-  color:rgb(142, 161, 225) ;
-  font-weight: 900;
+.layer-gray-big .cta {
+  text-align: center;
+  padding: 40px;
+  margin-top: 15px;
+  background-image: url(/img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
+.layer-gray-big .cta h2{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.layer-gray-big .cta .bottone{
+  margin-top: 40px;
+}
+
+/* footer  */
 
 footer {
   display: flex;
@@ -317,6 +251,51 @@ footer {
   justify-content: end;
   width: 100%;
   background-color: rgb(17, 17, 17);
+}
+
+.layer-footer{
+  padding: 40px 0px;
+  background-color: rgb(36, 36, 36);
+
+}
+.layer-footer > div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 75%;
+  border-bottom: 5px ;
+  border-color: rgb(255, 4, 4);
+}
+
+.layer-footer .col-menu-big { 
+  width: calc(100% *0.3);
+  padding: 10px;
+  line-height: 25px;
+}
+
+.layer-footer .col-menu { 
+  width: calc(100% *0.175);
+  padding: 10px;
+  line-height: 25px;
+}
+
+.layer-footer .col-menu-big h3{
+  color:rgb(142, 161, 225) ;
+}
+
+.layer-footer .col-menu-big > div i{
+  color: white;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.layer-footer .col-menu ul li{
+  list-style-type:none;
+  color: white;
+}
+
+.layer-footer .col-menu h4 {
+  color:rgb(142, 161, 225) ;
+  font-weight: 900;
 }
 
 .footer-bar{
